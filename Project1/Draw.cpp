@@ -11,11 +11,11 @@ Draw::Draw()
     initWin();
     generateShader();
     generateBuffers();
-    loadTexture(texture1, "1.jpg");
-    loadTexture(texture2, "2.jpg");
-    loadTexture(texture3, "3.jpg");
-    loadTexture(texture4, "4.jpg");
-    loadTexture(texture5, "5.jpg");
+    loadTexture(texture1, "textures/1.jpg");
+    loadTexture(texture2, "textures/2.jpg");
+    loadTexture(texture3, "textures/3.jpg");
+    loadTexture(texture4, "textures/4.jpg");
+    loadTexture(texture5, "textures/5.jpg");
     uniformTexrues();
 
     projection = glm::mat4(1.0f);
